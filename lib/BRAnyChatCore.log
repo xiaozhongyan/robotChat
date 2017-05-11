@@ -1,0 +1,65 @@
+[2017-05-10 17:26:15(303)][I]	---------------------------AnyChat Platform Core SDK Client Log---------------------------
+[2017-05-10 17:26:15(303)][I]	Load libanychatcore.so success!(V6.3 Build Time:Apr  7 2017 18:21:32)
+[2017-05-10 17:26:15(317)][I]	Load libmediautil.so success!(V6.3 Build Time:Apr  7 2017 18:21:45)
+[2017-05-10 17:26:15(318)][I]	Load libmediashow.so success!(V6.3 Build Time:Apr  7 2017 18:21:47)
+[2017-05-10 17:26:15(321)][I]	Load libmediacore.so success!(V6.3 Build Time:Apr  7 2017 18:21:44)
+[2017-05-10 17:26:15(347)][I]	server net link reset...
+[2017-05-10 17:26:15(347)][I]	Invoke	SetSDKOption(BRAC_SO_CORESDK_EXTVIDEOINPUT=1)
+[2017-05-10 17:26:15(347)][I]	Invoke	SetSDKOption(BRAC_SO_CLOUD_APPGUID, E8583D7A-FA16-4B57-BAB5-5468458237CA)
+[2017-05-10 17:26:15(347)][I]	BRAC_Connect---->
+[2017-05-10 17:26:15(347)][I]	Start network engine(IPv4 mode)...
+[2017-05-10 17:26:15(347)][I]	Invoke	Connect(cloud.anychat.cn,8906)=0
+[2017-05-10 17:26:15(347)][I]	<----BRAC_Connect
+[2017-05-10 17:26:16(772)][I]	Create anychatdnsserver connect:120.25.70.134(8912)
+[2017-05-10 17:26:17(218)][I]	Create anychatdnsserver connect:120.76.165.13(8912)
+[2017-05-10 17:26:17(739)][I]	Success connect to anychatdnsserver(120.25.70.134:8912, tcp:0)
+[2017-05-10 17:26:17(790)][I]	Receive connect parameter from anychatdnsserver!
+[2017-05-10 17:26:17(841)][I]	Receive server list from anychatdnsserver(count:1):
+[2017-05-10 17:26:17(841)][I]		anychatcoreserver, id:-379767107, ip:120.76.161.95(tcp:9560, udp:9560), OS:Linux, build Time:2017-04-07 18:24:29, version:6.3.0, serviceGuid:6F7976B0-8F1C-BF42-B857-1BA11A3A22BF, machineGuid:6203FF77-F1D8-4649-9930-BD559DF4F84C
+[2017-05-10 17:26:17(841)][I]		Create anychatcoreserver connect:120.76.161.95(9560, tcp:1)
+[2017-05-10 17:26:17(852)][I]		Create anychatcoreserver connect:120.76.161.95(9560, tcp:0)
+[2017-05-10 17:26:17(862)][I]		Create anychatcoreserver connect:10.170.167.70(9560, tcp:1)
+[2017-05-10 17:26:17(872)][I]		Create anychatcoreserver connect:10.170.167.70(9560, tcp:0)
+[2017-05-10 17:26:18(154)][I]		Trial connect anychatcoreserver(id:-379767107) result: 120.76.161.95(9560,tcp:1), errorcode:0, avgtime:51ms
+[2017-05-10 17:26:18(156)][I]	On trial connect finished, errorcode:0, result size:1, lbserver connect:0
+[2017-05-10 17:26:18(156)][I]		anychatcoreserver, 120.76.161.95(9560, tcp:1), avg time:51
+[2017-05-10 17:26:18(156)][I]	On best connection result, errorcode:0, ip:120.76.161.95, port:9560, tcp:1
+[2017-05-10 17:26:18(156)][I]	On pre-connection result, errorcode:0, anychatcoreserver, 120.76.161.95(9560, tcp:1)
+[2017-05-10 17:26:18(266)][I]	Start anychat server(120.76.161.95:9560) connect...
+[2017-05-10 17:26:18(407)][I]	On connect anychat server return, errorcode: 0, appflags:0x460020, svrflags:0x10
+[2017-05-10 17:26:18(458)][I]	Server version: V6.3(Build Time:2017-04-07 18:24:56, Linux server)
+[2017-05-10 17:26:18(539)][I]	m_ProtocolPipeLine, userid:0, local session:-1406627651, peer session:0
+[2017-05-10 17:26:18(540)][I]	Message	OnConnect(bSuccess:1, errorcode=0)
+[2017-05-10 17:26:18(544)][I]	Begin NotifyMsg Callback(msg:1, wParam:1, lParam:0)
+[2017-05-10 17:26:18(544)][I]	BRAC_Login---->
+[2017-05-10 17:26:18(544)][I]	Invoke	Login(username:276232909@qq.com)=0
+[2017-05-10 17:26:18(545)][I]	<----BRAC_Login
+[2017-05-10 17:26:18(545)][I]	End NotifyMsg Callback
+[2017-05-10 17:26:18(692)][I]	Message	OnLoginSystem(userid=-150,errorcode=0,username=276232909@qq.com), msg deliver worked(0)
+[2017-05-10 17:26:18(692)][I]	Server running time: 2 days, 4 hours, 25 minutes, license mode:1, cert:(lo:0x80025bf, hi:0x0)
+[2017-05-10 17:26:18(692)][I]	Server supports the session hold feature for up to 20000 ms
+[2017-05-10 17:26:18(696)][I]	Begin NotifyMsg Callback(msg:2, wParam:-150, lParam:0)
+[2017-05-10 17:26:18(696)][I]	BRAC_EnterRoom---->
+[2017-05-10 17:26:18(696)][I]	Invoke	EnterRoom(roomid=12)
+[2017-05-10 17:26:18(697)][I]	<----BRAC_EnterRoom
+[2017-05-10 17:26:18(697)][I]	End NotifyMsg Callback
+[2017-05-10 17:26:18(743)][I]	Connection to streaming media server(120.76.161.95:9560) successfully!(udp delay:25ms)
+[2017-05-10 17:26:18(844)][I]	Message	OnEnterRoom(roomid=12,errorcode=0,siteindex=0)
+[2017-05-10 17:26:18(844)][I]	Message	OnReceiveOnlineUser(count=1,roomid=12)
+[2017-05-10 17:26:18(848)][I]	Begin NotifyMsg Callback(msg:3, wParam:12, lParam:0)
+[2017-05-10 17:26:18(848)][I]	Invoke	SetInputVideoFormat(pixfmt:0, 640x480, 10fps, flags:0)
+[2017-05-10 17:26:18(856)][I]	using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX AVX2 FMA3 LZCNT BMI2
+
+[2017-05-10 17:26:18(863)][I]	profile High, level 2.2
+
+[2017-05-10 17:26:18(863)][I]	video(stream:0) codec init:codec:1, 10fps, 640x480, bitrate:0kbps, quality:4, preset:2, gop:20, handle:1
+[2017-05-10 17:26:18(863)][I]	video(stream:0) init finish:640x480, RGB24, fps:10, codecid:1
+[2017-05-10 17:26:18(863)][I]	End NotifyMsg Callback
+[2017-05-10 17:26:18(863)][I]	Begin NotifyMsg Callback(msg:7, wParam:1, lParam:12)
+[2017-05-10 17:26:18(863)][I]	End NotifyMsg Callback
+[2017-05-10 17:26:18(873)][I]	Begin NotifyMsg Callback(msg:15, wParam:-150, lParam:31457920)
+[2017-05-10 17:26:18(873)][I]	End NotifyMsg Callback
+[2017-05-10 17:26:27(294)][I]	BRAC_LeaveRoom---->
+[2017-05-10 17:26:27(294)][I]	Invoke	LeaveRoom(roomid=-1)	Elapse:0 ms
+[2017-05-10 17:26:27(294)][I]	<----BRAC_LeaveRoom
+[2017-05-10 17:26:27(294)][I]	BRAC_Logout---->
